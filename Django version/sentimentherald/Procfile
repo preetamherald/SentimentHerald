@@ -1,0 +1,1 @@
+web: gunicorn sentimentherald.wsgi --log-file -

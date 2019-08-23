@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0
+   }
+   body {
+     font-family: sans-serif;
+     height: 100%;
+     display: flex;
+     text-align: center;
+   }
+   h1 {
+     font-size: 3em;
+     padding-bottom: 0%;
+   }
+   h4 {
+     padding-top: 0%;
+   }
+   .container {
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+   }
+   .grid1 {
+     width: 33.3%;
+     min-width: 200px;
+     display: inline-block;
+     min-height: 230px;
+     height: 30%;
+     margin: auto auto;
+   }
+   form {
+     position: relative;
+     padding: 0px;
+     margin: 0px auto;
+     border: 0px
+   }
+   input {
+     font-size: 21px;
+     border: 0px;
+     outline: none;
+     padding: .7em;
+     box-shadow: 0px 1px 2px 0px #888;
+     display: inline-block;
+     padding: .8em;
+     border-radius: 6px;
+     background-color: white  
+   }
+   input[type=text] {
+     min-width: 500px;
+     -webkit-transition: width .2s ease-in-out;
+     transition: width .4s ease-in-out
+   }
+   input[type=submit] {
+     position: absolute;
+     display: none;
+     background-color: yellow;
+     right: 0;
+     top: 0;
+     border: 0;
+     border-radius: 30px;
+     -webkit-transition: .25s ease-in-out;
+     transition: .25s ease-in-out;
+     cursor: pointer
+   }
+   input[type=submit]:hover {
+     background-color: #eee
+   }
+   input[type=text] {
+     -webkit-transition: .25s ease-in-out;
+     transition: .25s ease-in-out;
+     margin-top: -25px
+   }
+   input[type=text]:hover {
+     box-shadow: 0px 5px 25px 0px hsl(0, 0%, 50%);
+     -webkit-transition: .1s ease-in-out;
+     transition: .1s ease-in-out;
+     padding: .55em;
+     margin-bottom: .25em
+   }
